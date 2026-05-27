@@ -1,0 +1,72 @@
+		main {
+			width: 1000px;
+			height: auto;
+			padding: 20px 0;
+		}
+		
+		.school-intro {
+			display: flex;
+			width: calc(100% - 40px);
+			margin: 0 20px 30px;
+		}
+		
+		.intro-left {
+			width: 50%;
+			height: 300px;
+		}
+		
+		.intro-left img {
+			width: 100%;
+			height: 100%;			
+			display: block;
+		}
+		
+		.intro-right {
+			margin-left: 10px;
+			width: 50%;
+			box-sizing: border-box;
+			padding: 10px;
+		}
+		
+		.intro-right h4 {
+			text-align: center;
+			color: #333;
+			margin-bottom: 20px;
+			font-size: 18px;
+		}
+		
+		.intro-right p {
+			line-height: 1.8;
+			text-align: justify;
+			margin-bottom: 15px;
+		}
+		
+		.campus-scenery {
+			width: calc(100% - 40px);
+			margin: 0 20px;
+		}
+		
+		.campus-scenery h4 {
+			text-align: center;
+			color: #333;
+			margin-bottom: 20px;
+			font-size: 18px;
+		}
+		
+		.scenery-img-container {
+			display: flex;
+			gap: 20px;
+			width: 100%;
+		}
+		
+		.scenery-img {
+			flex: 1;
+			min-width: 0;
+			height: 180px;
+		}
+		
+		.scenery-img img {
+			width: 100%;
+			height: 100%;			
+			display: block;
+		}
